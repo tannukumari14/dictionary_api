@@ -1,0 +1,30 @@
+#search {
+    display: flex;
+    justify-content: center;
+    margin-top: 89px;
+    margin-bottom: 89px;
+}
+
+#search-bar {
+    height: 60px;
+    width: 267px;
+    background-image: url("/search.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 35px;
+    font-family: "Iowan Old Style";
+}
+
+
+#go_button {
+    background: #E84848;
+    color: #FDFDFA;
+    font-size: 20px;
+    font-family: "Iowan Old Style";
+    border: 1px solid #E84848;
+    width: 61px;
+    height: 60px;
+}
+#Dictionary-text{
+    text-align: center;
+}
