@@ -47,13 +47,14 @@ searchButton.addEventListener("click", function() {
         display.innerHTML = "";
         
         // Display word and its definitions
-        data.forEach(entry => {
-            const word = entry.word;
-            const meanings = entry.meanings.map(meaning => {
+        data.forEach(e => {
+            const word = e.word;
+            const meanings = e.meanings.map(meaning => {
                 return meaning.definitions.map(definition => {
                     return `<li>${definition.definition}</li>`;
                 }).join('');
             }).join('');
+            
             
             display.innerHTML += `
                 <div>
