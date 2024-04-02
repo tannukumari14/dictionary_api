@@ -27,7 +27,7 @@ searchButton.addEventListener("click", function() {
             display.innerHTML += `
                 <div>
                     <h2>${word}</h2>
-                    // <p>Part of Speech: ${partOfSpeech}</p>
+                    <p>Part of Speech: ${partOfSpeech}</p>
                     <ul>${meanings}</ul>
                 </div>
             `;
